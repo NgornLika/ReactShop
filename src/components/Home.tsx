@@ -222,7 +222,18 @@ function Home(){
                         })}
                     </div>
                 </div>
-
+                 {/* Selected Product Section */}
+                {selectedProduct && (
+                <div className="container mt-5">
+                    <h2>Selected Product</h2>
+                    <div className="selected-product-card">
+                    <h3>{selectedProduct.name}</h3>
+                    <img src={selectedProduct.image} alt={selectedProduct.name} />
+                    <p>Price: ${selectedProduct.price}</p>
+                    {selectedProduct.onSale && <p className="text-success">On Sale!</p>}
+                    </div>
+                </div>
+                )}
             </div>
               
         </>
