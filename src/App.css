@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.header{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/* .header :hover{
+  background-color: #c292ed;
+  position: sticky;
+} */
+.nav-item{
+  margin: 10px;
+  color: black;
+  font-size: 18px;
+}
+:root {
+  --btnGreen:#6A9739;
+}
+
+/* Home */
+.home{
+  height: auto;
+  width: 100%;
+  padding: 100px ;
+  margin: auto;
+  background-color: #F8F6F3;
+}
+.home .colleft img{
+  width: 100%;
+  height: 100%;
+  padding-left: 0;
+  object-fit: cover;
+}
+.main-home{
+  width: 100%;
+  height: auto;
+}
+.home .colright h1{
+  font-size: 4rem;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  padding: 20px 0 20px 0px;
+}
+.home .colright h5{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+.home .col-md-6 button{
+  background-color: var(--btnGreen);
+  padding:10px 25px ;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+}
+.home .colright img{
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  object-fit:fill;
+}
+.content{
+  height: auto;
+  background: #000;
+  margin-top: 60px;
+}
+.content .card #icon{
+  font-size: 2rem;
+}
+.content .card {
+  background-color: #303030 ;
+}
+.SellProduct .title img{
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  object-fit:fill;
+}
+.SellProduct .Product img{
+  width: 100%;
+  height: 100%;
+}
+.SellProduct .Product h6{
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+.SellProduct .Product #Groceries{
+  font-size: 14px;
+  color: #abaaaa;
+}
+
+.shop .category1{
+  background-image: url("../public/assets/product11-free-img.jpg");
+  background-position: right; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 270px 330px;
+}
+.shop .category2{
+  background-image: url("../public/assets/product13-free-img.jpg");
+  background-position: right; 
+  background-repeat: no-repeat; 
+  background-size: 270px 330px;
+}
+.shop .category3{
+  background-image: url("../public/assets/product17-free-img.jpg");
+  background-position: right; 
+  background-repeat: no-repeat; 
+  background-size: 270px 330px;
+}
+
+.getDis{
+  background: #000;
+  color: white;
+  font-family: "Merriweather", serif;
+}
+.Tryit{
+  font-family: "Merriweather", serif;
+}
+
+/* product-card */
+.product-card .sale-badge{
+  font-family: "Merriweather", serif;
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  background-color: #6A9739;
+  color: #000000;
+  border-radius: 100%;
+  font-size: 0.8em;
+  width: 45px;
+  height: 45px;
+}
+.product-card .crad-body{
+  font-family: "Merriweather", serif;
+  margin-bottom: 30px;
+}
+.product-card .product-name{
+  font-size: 18px;
+  font-weight: bold;
+}
+.shop .Leaves img{
+  margin-top: -35px;
+}
+.all .col-lg-3 .card{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+/* product-detail */
+.product-detail{
+  background-color: #F8F6F3;
+  padding-bottom: 50px;
+}
+
+/* about */
+.about .aboutUs{
+  height: 25vh;
+  background-color: #F8F6F3;
+  font-family: "Merriweather", serif;
+}
+.about .Leaves img{
+  margin-top: -35px;
+}
+.about .colleft h1{
+  font-family: "Merriweather", serif;
+}
+.about .colright img{
+  width: 100%;
+}
+.about .numberpro{
+  height: auto;
+  background: #000;
+  margin-top: 60px;
+}
+.certified {
+  margin-top: 200px;
+}
+.certified .col-lg-5 .card{
+  background-color: #F8F6F3;
+  height: 75vh;
+  width: 35vw;
+  float: end;
+}
+.certified .col-lg-5 .carousel{
+  width: 80%;
+  height: 80%;
+  margin: -80px 30px 0px 55px;
+}
+.certified .col-lg-5 .card .card-body{
+  width: 100%;
+  height: 20%;
+}
+.certified .col-lg-5 h2,h1{
+  font-family: "Merriweather", serif;
+}
+.certified .col-lg-5 .START button{
+  background-color: var(--btnGreen);
+  padding:10px 25px ;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: white;
+}
+
+/* contact */
+.contact .getin{
+  height: 35vh;
+  background-color: #F8F6F3;
+  font-family: "Merriweather", serif;
+}
+ .contactUs .row{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 10px;
+  width: 76vw;
+  padding: 0px 15px 50px 15px;
+}
+.contactUs .Leaves{
+  margin-top: -45px;
+}
+.contact .contactUs .row p{
+  font-size: 1.1rem;
+}
+.contact .question{
+  font-family: "Merriweather", serif;
+}
+.contact  .faq-item {
+  border-bottom: 1px solid #ddd;
+}
+.faq-item:last-child {
+  border-bottom: none;
+}
+.faq-question {
+  font-weight: bold;
+}
+.faq-question button {
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+}
+/* card */
+
+@media (max-width: 1000px) {
+  .home .col-md-6 h1 {
+      font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+  .home .col-md-6 h3 {
+      font-size: 1.2rem; /* Adjusted font size for smaller screens */
+  }
+  .home .col-md-6 button {
+      padding: 8px 20px; /* Adjusted padding for smaller screens */
+      font-size: var(--FontSizeSmall);
+  }
+  .contact .faq .faq-item{
+    width: 100%;
+  }
+  .about .certified .col-lg-5 .card  {
+    width: 100%;
+  }
+  .certified .col-lg-5 .START button{
+    transform: translate(130px);
+  }
+  .table-responsive .cardTotal .tablee{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 567px) {
+  .home {
+      width: 100%; /* Full width for very small screens */
+      padding: 10px; /* Adjust padding */
+  }
+  .home .colright h1 {
+      font-size: 1.5rem; /* Further reduced font size for very small screens */
+  }
+  .home .colright h3 {
+      font-size: 1rem; /* Further reduced font size for very small screens */
+  }
+  .home .colright button {
+      padding: 6px 15px; /* Further adjusted padding for very small screens */
+      font-size: var(--FontSizeSmall);
+  }
+  .contact .faq .faq-item{
+    width: 100%;
+  }
+  .about .certified .col-lg-5 .card  {
+    width: 100%;
+  }
+  .certified .col-lg-5 .START button{
+    transform: translate(100px);
+  }
+  .table-responsive .cardTotal .tablee{
+    width: 100%;
+  }
+}

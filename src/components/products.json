@@ -1,0 +1,14 @@
+{
+    "products":[
+        {"id":1,"name":"Assorted Coffee","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/coffee-asorted-400x400.jpg","price":35,"stock":25,"onSale":true,"description": "A delightful assortment of coffee."},
+        {"id":2,"name":"Hand Sanitizer","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/sanitizer-400x400.jpg","price":15,"stock":35,"onSale":true,"description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame."},
+        {"id":3,"name":"Handpicked Red Chillies","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/red-chillies-400x400.jpg","price":20,"stock":55,"onSale":true,"description": "Fresh and spicy red chillies."},
+        {"id":4,"name":"Natural Extracted Edible Oil","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/edible-oil-400x400.jpg","price":25, "stock":25,"onSale":true,"description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame."},
+        {"id":5,"name":"Fresh Orange Juice","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/orage-juice-kariz.jpg","price":18, "stock":25,"onSale":true,"description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame."},
+        {"id":6,"name":"Cashew Butter","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/cashew-butter-500.jpg","price":25, "stock":25,"onSale":true,"description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame."},
+        {"id":7,"name":"Fresh Organic Honey","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/organic-honey.jpg","price":34, "stock":35,"onSale":true,"description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame."},
+        {"id":8,"name":"COrganic Face Scrub","image":"https://websitedemos.net/organic-shop-02/wp-content/uploads/sites/465/2018/06/face-wash.jpg","price":35, "stock":25,"onSale":true,"description": "Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit, sed quia non incidunt lores ta porro ame. numquam eius modi tempora incidunt lores ta porro ame."}
+
+    ]
+    
+}
